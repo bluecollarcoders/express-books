@@ -3,8 +3,6 @@ DROP DATABASE IF EXISTS books;
 
 CREATE DATABASE books;
 
-\c books;
-
 
 CREATE TABLE books (
   isbn TEXT PRIMARY KEY,
